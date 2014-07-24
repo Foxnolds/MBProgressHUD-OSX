@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>49A1269C-243B-4C76-9001-39DB5028DE88</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HudOSXDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>442CBFAE-851B-496E-9721-194B005DB568</key>
+		<string>https://github.com/Foxnolds/MBProgressHUD-OSX.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HudOSXDemo/HudOSXDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>442CBFAE-851B-496E-9721-194B005DB568</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Foxnolds/MBProgressHUD-OSX.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>442CBFAE-851B-496E-9721-194B005DB568</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>442CBFAE-851B-496E-9721-194B005DB568</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MBProgressHUD-OSX</string>
+		</dict>
+	</array>
+</dict>
+</plist>

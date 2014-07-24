@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B236132D18FE81EE00B2F547 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B236132C18FE81EE00B2F547 /* Cocoa.framework */; };
+		B236133718FE81EE00B2F547 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B236133518FE81EE00B2F547 /* InfoPlist.strings */; };
+		B236133918FE81EE00B2F547 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B236133818FE81EE00B2F547 /* main.m */; };
+		B236133D18FE81EE00B2F547 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B236133B18FE81EE00B2F547 /* Credits.rtf */; };
+		B236134018FE81EE00B2F547 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B236133F18FE81EE00B2F547 /* AppDelegate.m */; };
+		B236134318FE81EE00B2F547 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B236134118FE81EE00B2F547 /* MainMenu.xib */; };
+		B236134518FE81EE00B2F547 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B236134418FE81EE00B2F547 /* Images.xcassets */; };
+		B236136218FE848200B2F547 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B236136118FE848200B2F547 /* MBProgressHUD.m */; };
+		B236138018FE85BA00B2F547 /* HudOSXDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B236137F18FE85BA00B2F547 /* HudOSXDemoViewController.m */; };
+		B2ED02EA1980BE4600C6CE12 /* 37x-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = B2ED02DE1980BE4600C6CE12 /* 37x-Checkmark.png */; };
+		B2ED02EB1980BE4600C6CE12 /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2ED02DF1980BE4600C6CE12 /* 37x-Checkmark@2x.png */; };
+		B2ED02EC1980BE4600C6CE12 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2ED02E01980BE4600C6CE12 /* Default-568h@2x.png */; };
+		B2ED02ED1980BE4600C6CE12 /* Default-iOS7-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2ED02E11980BE4600C6CE12 /* Default-iOS7-568h@2x.png */; };
+		B2ED02EE1980BE4600C6CE12 /* Default-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2ED02E21980BE4600C6CE12 /* Default-iOS7@2x.png */; };
+		B2ED02EF1980BE4600C6CE12 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B2ED02E31980BE4600C6CE12 /* Default.png */; };
+		B2ED02F01980BE4600C6CE12 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2ED02E41980BE4600C6CE12 /* Default@2x.png */; };
+		B2ED02F11980BE4600C6CE12 /* Icon-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2ED02E51980BE4600C6CE12 /* Icon-iOS7@2x.png */; };
+		B2ED02F21980BE4600C6CE12 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B2ED02E61980BE4600C6CE12 /* Icon-Small.png */; };
+		B2ED02F31980BE4600C6CE12 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2ED02E71980BE4600C6CE12 /* Icon-Small@2x.png */; };
+		B2ED02F41980BE4600C6CE12 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B2ED02E81980BE4600C6CE12 /* Icon.png */; };
+		B2ED02F51980BE4600C6CE12 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2ED02E91980BE4600C6CE12 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B236132918FE81EE00B2F547 /* HudOSXDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HudOSXDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B236132C18FE81EE00B2F547 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B236132F18FE81EE00B2F547 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B236133018FE81EE00B2F547 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B236133118FE81EE00B2F547 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B236133418FE81EE00B2F547 /* HudOSXDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HudOSXDemo-Info.plist"; sourceTree = "<group>"; };
+		B236133618FE81EE00B2F547 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B236133818FE81EE00B2F547 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B236133A18FE81EE00B2F547 /* HudOSXDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HudOSXDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B236133C18FE81EE00B2F547 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B236133E18FE81EE00B2F547 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B236133F18FE81EE00B2F547 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B236134418FE81EE00B2F547 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B236136018FE848200B2F547 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../../MBProgressHUD.h; sourceTree = "<group>"; };
+		B236136118FE848200B2F547 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ../../MBProgressHUD.m; sourceTree = "<group>"; };
+		B236137E18FE85BA00B2F547 /* HudOSXDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudOSXDemoViewController.h; sourceTree = "<group>"; };
+		B236137F18FE85BA00B2F547 /* HudOSXDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudOSXDemoViewController.m; sourceTree = "<group>"; };
+		B236138518FEBFEB00B2F547 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B2ED02DE1980BE4600C6CE12 /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "37x-Checkmark.png"; path = "../HudiOSDemo/Images/37x-Checkmark.png"; sourceTree = "<group>"; };
+		B2ED02DF1980BE4600C6CE12 /* 37x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "37x-Checkmark@2x.png"; path = "../HudiOSDemo/Images/37x-Checkmark@2x.png"; sourceTree = "<group>"; };
+		B2ED02E01980BE4600C6CE12 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../HudiOSDemo/Images/Default-568h@2x.png"; sourceTree = "<group>"; };
+		B2ED02E11980BE4600C6CE12 /* Default-iOS7-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-iOS7-568h@2x.png"; path = "../HudiOSDemo/Images/Default-iOS7-568h@2x.png"; sourceTree = "<group>"; };
+		B2ED02E21980BE4600C6CE12 /* Default-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-iOS7@2x.png"; path = "../HudiOSDemo/Images/Default-iOS7@2x.png"; sourceTree = "<group>"; };
+		B2ED02E31980BE4600C6CE12 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../HudiOSDemo/Images/Default.png; sourceTree = "<group>"; };
+		B2ED02E41980BE4600C6CE12 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../HudiOSDemo/Images/Default@2x.png"; sourceTree = "<group>"; };
+		B2ED02E51980BE4600C6CE12 /* Icon-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-iOS7@2x.png"; path = "../HudiOSDemo/Images/Icon-iOS7@2x.png"; sourceTree = "<group>"; };
+		B2ED02E61980BE4600C6CE12 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "../HudiOSDemo/Images/Icon-Small.png"; sourceTree = "<group>"; };
+		B2ED02E71980BE4600C6CE12 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../HudiOSDemo/Images/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		B2ED02E81980BE4600C6CE12 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../HudiOSDemo/Images/Icon.png; sourceTree = "<group>"; };
+		B2ED02E91980BE4600C6CE12 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../HudiOSDemo/Images/Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B236132618FE81EE00B2F547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B236132D18FE81EE00B2F547 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B236132018FE81EE00B2F547 = {
+			isa = PBXGroup;
+			children = (
+				B236133218FE81EE00B2F547 /* HudOSXDemo */,
+				B236136318FE84A000B2F547 /* Resources */,
+				B236132B18FE81EE00B2F547 /* Frameworks */,
+				B236132A18FE81EE00B2F547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B236132A18FE81EE00B2F547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B236132918FE81EE00B2F547 /* HudOSXDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B236132B18FE81EE00B2F547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B236132C18FE81EE00B2F547 /* Cocoa.framework */,
+				B236132E18FE81EE00B2F547 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B236132E18FE81EE00B2F547 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B236132F18FE81EE00B2F547 /* AppKit.framework */,
+				B236133018FE81EE00B2F547 /* CoreData.framework */,
+				B236133118FE81EE00B2F547 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B236133218FE81EE00B2F547 /* HudOSXDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B236133E18FE81EE00B2F547 /* AppDelegate.h */,
+				B236133F18FE81EE00B2F547 /* AppDelegate.m */,
+				B236137E18FE85BA00B2F547 /* HudOSXDemoViewController.h */,
+				B236137F18FE85BA00B2F547 /* HudOSXDemoViewController.m */,
+				B236136018FE848200B2F547 /* MBProgressHUD.h */,
+				B236136118FE848200B2F547 /* MBProgressHUD.m */,
+				B236134418FE81EE00B2F547 /* Images.xcassets */,
+				B236133318FE81EE00B2F547 /* Supporting Files */,
+			);
+			path = HudOSXDemo;
+			sourceTree = "<group>";
+		};
+		B236133318FE81EE00B2F547 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B236133418FE81EE00B2F547 /* HudOSXDemo-Info.plist */,
+				B236133518FE81EE00B2F547 /* InfoPlist.strings */,
+				B236133818FE81EE00B2F547 /* main.m */,
+				B236133A18FE81EE00B2F547 /* HudOSXDemo-Prefix.pch */,
+				B236133B18FE81EE00B2F547 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B236136318FE84A000B2F547 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B236136418FE84BB00B2F547 /* UI */,
+				B236136518FE84C800B2F547 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B236136418FE84BB00B2F547 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B236134118FE81EE00B2F547 /* MainMenu.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		B236136518FE84C800B2F547 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B2ED02DE1980BE4600C6CE12 /* 37x-Checkmark.png */,
+				B2ED02DF1980BE4600C6CE12 /* 37x-Checkmark@2x.png */,
+				B2ED02E01980BE4600C6CE12 /* Default-568h@2x.png */,
+				B2ED02E11980BE4600C6CE12 /* Default-iOS7-568h@2x.png */,
+				B2ED02E21980BE4600C6CE12 /* Default-iOS7@2x.png */,
+				B2ED02E31980BE4600C6CE12 /* Default.png */,
+				B2ED02E41980BE4600C6CE12 /* Default@2x.png */,
+				B2ED02E51980BE4600C6CE12 /* Icon-iOS7@2x.png */,
+				B2ED02E61980BE4600C6CE12 /* Icon-Small.png */,
+				B2ED02E71980BE4600C6CE12 /* Icon-Small@2x.png */,
+				B2ED02E81980BE4600C6CE12 /* Icon.png */,
+				B2ED02E91980BE4600C6CE12 /* Icon@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B236132818FE81EE00B2F547 /* HudOSXDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B236135A18FE81EE00B2F547 /* Build configuration list for PBXNativeTarget "HudOSXDemo" */;
+			buildPhases = (
+				B236132518FE81EE00B2F547 /* Sources */,
+				B236132618FE81EE00B2F547 /* Frameworks */,
+				B236132718FE81EE00B2F547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HudOSXDemo;
+			productName = HudOSXDemo;
+			productReference = B236132918FE81EE00B2F547 /* HudOSXDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B236132118FE81EE00B2F547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Wayne Fox";
+			};
+			buildConfigurationList = B236132418FE81EE00B2F547 /* Build configuration list for PBXProject "HudOSXDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B236132018FE81EE00B2F547;
+			productRefGroup = B236132A18FE81EE00B2F547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B236132818FE81EE00B2F547 /* HudOSXDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B236132718FE81EE00B2F547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2ED02F41980BE4600C6CE12 /* Icon.png in Resources */,
+				B236133718FE81EE00B2F547 /* InfoPlist.strings in Resources */,
+				B2ED02EA1980BE4600C6CE12 /* 37x-Checkmark.png in Resources */,
+				B2ED02F21980BE4600C6CE12 /* Icon-Small.png in Resources */,
+				B2ED02F31980BE4600C6CE12 /* Icon-Small@2x.png in Resources */,
+				B236134518FE81EE00B2F547 /* Images.xcassets in Resources */,
+				B2ED02EB1980BE4600C6CE12 /* 37x-Checkmark@2x.png in Resources */,
+				B2ED02F51980BE4600C6CE12 /* Icon@2x.png in Resources */,
+				B2ED02F01980BE4600C6CE12 /* Default@2x.png in Resources */,
+				B236133D18FE81EE00B2F547 /* Credits.rtf in Resources */,
+				B236134318FE81EE00B2F547 /* MainMenu.xib in Resources */,
+				B2ED02EC1980BE4600C6CE12 /* Default-568h@2x.png in Resources */,
+				B2ED02EE1980BE4600C6CE12 /* Default-iOS7@2x.png in Resources */,
+				B2ED02ED1980BE4600C6CE12 /* Default-iOS7-568h@2x.png in Resources */,
+				B2ED02F11980BE4600C6CE12 /* Icon-iOS7@2x.png in Resources */,
+				B2ED02EF1980BE4600C6CE12 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B236132518FE81EE00B2F547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B236138018FE85BA00B2F547 /* HudOSXDemoViewController.m in Sources */,
+				B236134018FE81EE00B2F547 /* AppDelegate.m in Sources */,
+				B236136218FE848200B2F547 /* MBProgressHUD.m in Sources */,
+				B236133918FE81EE00B2F547 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B236133518FE81EE00B2F547 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B236133618FE81EE00B2F547 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B236133B18FE81EE00B2F547 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B236133C18FE81EE00B2F547 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B236134118FE81EE00B2F547 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B236138518FEBFEB00B2F547 /* en */,
+			);
+			name = MainMenu.xib;
+			path = HudOSXDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B236135818FE81EE00B2F547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		B236135918FE81EE00B2F547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		B236135B18FE81EE00B2F547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HudOSXDemo/HudOSXDemo-Prefix.pch";
+				INFOPLIST_FILE = "HudOSXDemo/HudOSXDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B236135C18FE81EE00B2F547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HudOSXDemo/HudOSXDemo-Prefix.pch";
+				INFOPLIST_FILE = "HudOSXDemo/HudOSXDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B236132418FE81EE00B2F547 /* Build configuration list for PBXProject "HudOSXDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B236135818FE81EE00B2F547 /* Debug */,
+				B236135918FE81EE00B2F547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B236135A18FE81EE00B2F547 /* Build configuration list for PBXNativeTarget "HudOSXDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B236135B18FE81EE00B2F547 /* Debug */,
+				B236135C18FE81EE00B2F547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B236132118FE81EE00B2F547 /* Project object */;
+}
