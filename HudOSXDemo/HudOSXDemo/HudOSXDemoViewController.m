@@ -141,7 +141,9 @@
 	// The sample image is based on the work by http://www.pixelpressicons.com, http://creativecommons.org/licenses/by/2.5/ca/
 	// Make the customViews 37 by 37 pixels for best results (those are the bounds of the build-in progress indicators)
 	HUD.customView = MB_AUTORELEASE([[NSImageView alloc] initWithFrame:NSMakeRect(0.0f, 0.0f, 37.0f, 37.0f)]);
-    [(NSImageView *)HUD.customView setImage:[NSImage imageNamed:@"37x-Checkmark.png"]];
+    NSImage *img = [NSImage imageNamed:@"37x-Checkmark"];
+    if (!img) img = [NSImage imageNamed:@"37x-Checkmark.png"];
+    [(NSImageView *)HUD.customView setImage:img];
 	
 	// Set custom view mode
 	HUD.mode = MBProgressHUDModeCustomView;

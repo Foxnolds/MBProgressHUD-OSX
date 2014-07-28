@@ -49,6 +49,7 @@
 		B236137E18FE85BA00B2F547 /* HudOSXDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudOSXDemoViewController.h; sourceTree = "<group>"; };
 		B236137F18FE85BA00B2F547 /* HudOSXDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudOSXDemoViewController.m; sourceTree = "<group>"; };
 		B236138518FEBFEB00B2F547 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B27CDDFE1985E2750034E045 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		B2ED02DE1980BE4600C6CE12 /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "37x-Checkmark.png"; path = "../HudiOSDemo/Images/37x-Checkmark.png"; sourceTree = "<group>"; };
 		B2ED02DF1980BE4600C6CE12 /* 37x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "37x-Checkmark@2x.png"; path = "../HudiOSDemo/Images/37x-Checkmark@2x.png"; sourceTree = "<group>"; };
 		B2ED02E01980BE4600C6CE12 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../HudiOSDemo/Images/Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -130,6 +131,7 @@
 		B236133318FE81EE00B2F547 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B27CDDFE1985E2750034E045 /* README.md */,
 				B236133418FE81EE00B2F547 /* HudOSXDemo-Info.plist */,
 				B236133518FE81EE00B2F547 /* InfoPlist.strings */,
 				B236133818FE81EE00B2F547 /* main.m */,
