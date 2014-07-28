@@ -57,7 +57,7 @@ I have not yet enabled [CocoaPods](http://cocoapods.org) for this OS X compatibl
 
 Meanwhile, you can directly add the `MBProgressHUD.h` and `MBProgressHUD.m` source files to your project.
 
-1. Download the [latest code version](https://github.com/Foxnolds/MBProgressHUD-OSX/archive/master.zip) or add the repository as a git submodule to your git-tracked project. 
+1. Download the [latest code version](https://github.com/Foxnolds/MBProgressHUD-OSX/archive/master.zip) or add the repository as a git submodule to your git-tracked project.
 2. Open your project in Xcode, then drag and drop `MBProgressHUD.h` and `MBProgressHUD.m` onto your project (use the "Product Navigator view"). Make sure to select Copy items when asked if you extracted the code archive outside of your project. 
 3. Include MBProgressHUD wherever you need it with `#import "MBProgressHUD.h"`.
 
@@ -65,7 +65,7 @@ Meanwhile, you can directly add the `MBProgressHUD.h` and `MBProgressHUD.m` sour
 
 You can also add MBProgressHUD as a static library to your project or workspace. 
 
-1. Download the [latest code version](https://github.com/Foxnolds/MBProgressHUD-OSX/downloads) or add the repository as a git submodule to your git-tracked project.
+1. Download the [latest code version](https://github.com/Foxnolds/MBProgressHUD-OSX/archive/master.zip) or add the repository as a git submodule to your git-tracked project.
 2. Open your project in Xcode, then drag and drop `MBProgressHUD.xcodeproj` onto your project or workspace (use the "Product Navigator view"). 
 3. Select your target and go to the Build phases tab. In the Link Binary With Libraries section select the add button. On the sheet find and add `libMBProgressHUD.a`. You might also need to add `MBProgressHUD` to the Target Dependencies list. 
 4. Include MBProgressHUD wherever you need it with `#import <MBProgressHUD/MBProgressHUD.h>`.
