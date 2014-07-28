@@ -1,7 +1,7 @@
 # MBProgressHUD-OSX
 
-A fork and conversion of Matej Bukovinski's MBProgressHUD for iOS to run on OS X.
-See [https://github.com/jdg/MBProgressHUD] for latest iOS official repository.
+A fork and conversion of [Matej Bukovinski's MBProgressHUD](https://github.com/matej/MBProgressHUD) for iOS to run on OS X.
+See [Matej Bukovinski's MBProgressHUD in github](https://github.com/matej/MBProgressHUD) for latest iOS official repository.
 
 The MBProgressHUD class is still iOS compatible and can be deployed for either platform.
 The MBProgressHUD class also supports ARC and Non-ARC compilation.
@@ -65,7 +65,7 @@ Meanwhile, you can directly add the `MBProgressHUD.h` and `MBProgressHUD.m` sour
 
 You can also add MBProgressHUD as a static library to your project or workspace. 
 
-1. Download the [latest code version](https://github.com/matej/MBProgressHUD/downloads) or add the repository as a git submodule to your git-tracked project. 
+1. Download the [latest code version](https://github.com/Foxnolds/MBProgressHUD-OSX/downloads) or add the repository as a git submodule to your git-tracked project. 
 2. Open your project in Xcode, then drag and drop `MBProgressHUD.xcodeproj` onto your project or workspace (use the "Product Navigator view"). 
 3. Select your target and go to the Build phases tab. In the Link Binary With Libraries section select the add button. On the sheet find and add `libMBProgressHUD.a`. You might also need to add `MBProgressHUD` to the Target Dependencies list. 
 4. Include MBProgressHUD wherever you need it with `#import <MBProgressHUD/MBProgressHUD.h>`.
