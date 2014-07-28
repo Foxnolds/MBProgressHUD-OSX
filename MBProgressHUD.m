@@ -397,6 +397,10 @@ static const CGFloat kDetailsLabelFontSize = 12.0f;
 	[minShowTimer release];
 	[showStarted release];
 	[customView release];
+    [labelFont release];
+    [labelColor release];
+    [detailsLabelFont release];
+    [detailsLabelColor release];
 #if !(TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
     if (_cgColorFromNSColor) CGColorRelease(_cgColorFromNSColor);
 #endif
