@@ -1,13 +1,15 @@
-# MBProgressHUD
+# MBProgressHUD-OSX
 
-A fork and conversion of Matej Bukovinski's MBProgressHUD for iOS to run on OS X. 
+A fork and conversion of Matej Bukovinski's MBProgressHUD for iOS to run on OS X.
+See [https://github.com/jdg/MBProgressHUD] for latest iOS official repository.
+
 The MBProgressHUD class is still iOS compatible and can be deployed for either platform.
 The MBProgressHUD class also supports ARC and Non-ARC compilation.
 
 For OS X, I also used Kelan Champagne's YRKSpinningProgressIndicator, replacing
 the OS X NSProgressIndicator.
 
-MBProgressHUD is an iOS drop-in class that displays a translucent HUD with an indicator and/or labels while work is being done in a background thread. The HUD is meant as a replacement for the undocumented, private UIKit UIProgressHUD with some additional features. 
+MBProgressHUD is an iOS/OS X drop-in class that displays a translucent HUD with an indicator and/or labels while work is being done in a background thread. The HUD is meant as a replacement for the undocumented, private UIKit UIProgressHUD with some additional features.
 
 ## iOS Examples
 [![](http://dl.dropbox.com/u/378729/MBProgressHUD/1-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/1.png)
