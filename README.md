@@ -21,14 +21,14 @@ MBProgressHUD is an iOS/OS X drop-in class that displays a translucent HUD with 
 [![](http://dl.dropbox.com/u/378729/MBProgressHUD/7-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/7.png)
 
 ## OS X Examples
-[![](http://dl.dropbox.com/s/d23zerk4xz4g5dd/OSX_1.png)](http://dl.dropbox.com/s/d23zerk4xz4g5dd/OSX_1.png)
-[![](http://dl.dropbox.com/s/i0fpa93mt9x5art/OSX_2.png)](http://dl.dropbox.com/s/i0fpa93mt9x5art/OSX_2.png)
-[![](http://dl.dropbox.com/s/xm80zbaa5h7cms9/OSX_3.png)](http://dl.dropbox.com/s/xm80zbaa5h7cms9/OSX_3.png)
-[![](http://dl.dropbox.com/s/rdd0cyo056unxy8/OSX_4.png)](http://dl.dropbox.com/s/rdd0cyo056unxy8/OSX_4.png)
-[![](http://dl.dropbox.com/s/gsnehb0p2ivjboy/OSX_6.png)](http://dl.dropbox.com/s/gsnehb0p2ivjboy/OSX_6.png)
-[![](http://dl.dropbox.com/s/cr1ba44dg79x5jc/OSX_7.png)](http://dl.dropbox.com/s/cr1ba44dg79x5jc/OSX_7.png)
-[![](http://dl.dropbox.com/s/bbcelsg1kxfmaj1/OSX_13.png)](http://dl.dropbox.com/s/bbcelsg1kxfmaj1/OSX_13.png)
-[![](http://dl.dropbox.com/s/qoztceg74jtz83h/OSX_14.png)](http://dl.dropbox.com/s/qoztceg74jtz83h/OSX_14.png)
+[![](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_1_thumb.png)](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_1.png)
+[![](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_2_thumb.png)](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_2.png)
+[![](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_3_thumb.png)](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_3.png)
+[![](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_4_thumb.png)](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_4.png)
+[![](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_6_thumb.png)](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_6.png)
+[![](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_7_thumb.png)](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_7.png)
+[![](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_13_thumb.png)](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_13.png)
+[![](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_14_thumb.png)](http://dl.dropbox.com/u/176305/MBProgressHUD-OSX/OSX_14.png)
 
 
 ## Requirements
