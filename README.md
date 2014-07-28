@@ -33,7 +33,7 @@ MBProgressHUD is an iOS/OS X drop-in class that displays a translucent HUD with 
 
 ## Requirements
 
-MBProgressHUD works on any iOS version and is compatible with both ARC and non-ARC projects. It depends on the following Apple frameworks, which should already be included with most Xcode templates:
+MBProgressHUD works on any iOS or OS X version and is compatible with both ARC and non-ARC projects. It depends on the following Apple frameworks, which should already be included with most Xcode templates:
 
 ### iOS
 * Foundation.framework
@@ -51,11 +51,11 @@ You will need LLVM 3.0 or later in order to build MBProgressHUD.
 
 ### Cocoapods
 
-I have not enabled [CocoaPods](http://cocoapods.org) for this OS X compatible version of MBProgressHUD yet.
+I have not yet enabled [CocoaPods](http://cocoapods.org) for this OS X compatible version of MBProgressHUD.
 
 ### Source files
 
-Alternatively you can directly add the `MBProgressHUD.h` and `MBProgressHUD.m` source files to your project.
+Meanwhile, you can directly add the `MBProgressHUD.h` and `MBProgressHUD.m` source files to your project.
 
 1. Download the [latest code version](https://github.com/matej/MBProgressHUD/archive/master.zip) or add the repository as a git submodule to your git-tracked project. 
 2. Open your project in Xcode, then drag and drop `MBProgressHUD.h` and `MBProgressHUD.m` onto your project (use the "Product Navigator view"). Make sure to select Copy items when asked if you extracted the code archive outside of your project. 
