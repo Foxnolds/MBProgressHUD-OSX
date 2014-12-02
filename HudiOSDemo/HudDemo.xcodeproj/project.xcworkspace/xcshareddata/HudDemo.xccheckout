@@ -10,29 +10,29 @@
 	<string>HudDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>442CBFAE-851B-496E-9721-194B005DB568</key>
+		<key>9216234465E28AF4110CA9480EA255273B2C94F7</key>
 		<string>https://github.com/Foxnolds/MBProgressHUD-OSX.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HudiOSDemo/HudDemo.xcodeproj/project.xcworkspace</string>
+	<string>HudiOSDemo/HudDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>442CBFAE-851B-496E-9721-194B005DB568</key>
+		<key>9216234465E28AF4110CA9480EA255273B2C94F7</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Foxnolds/MBProgressHUD-OSX.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>442CBFAE-851B-496E-9721-194B005DB568</string>
+	<string>9216234465E28AF4110CA9480EA255273B2C94F7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>442CBFAE-851B-496E-9721-194B005DB568</string>
+			<string>9216234465E28AF4110CA9480EA255273B2C94F7</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MBProgressHUD-OSX</string>
 		</dict>
